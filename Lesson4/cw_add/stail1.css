@@ -1,0 +1,213 @@
+
+.h100 {
+    height: 100px;
+}
+.w100 {
+    width:100px;
+}
+
+.color {
+    background: #465871;
+}
+.blueviolet{
+    background: blueviolet;
+}
+.radius {
+    border-radius: 10px;
+}
+.h150 {
+    height: 150px;
+}
+.w250 {
+    width: 250px;
+}
+.w150 {
+    width: 150px;
+}
+.radius-round {
+    border-radius: 50%;
+}
+.radius5 {
+    border-radius: 5px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+.box {
+    height: 2050px;
+    width: 800px;
+    margin: 200px;
+}
+.box-1 {
+    height: 100px;
+    background: silver;
+    position: relative;
+}
+.box-2_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    width: 60%;
+    padding-left: 160px;
+    color: silver;
+}
+
+.box-2_2 {
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: flex-end;
+    width: 60%;
+    padding-left: 156px;
+}
+
+.box-2 button{
+    margin-top: 30px;
+    background: blueviolet;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    height: 20px;
+    margin-left: 350px;
+}
+
+.box-3 {
+    height: 1500px;
+    background: silver;
+    justify-content: center;
+    position: relative;
+
+}
+
+.box-3 {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.footer {
+    position: relative;
+}
+
+.box-4 {
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+
+}
+
+.name {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 30px;
+
+
+}
+
+.main {
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+
+}
+
+.nav {
+    position: relative;
+    top: 50px;
+    z-index: 1;
+
+}
+
+.aside-1 {
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+}
+.aside-2 {
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly ;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+.aside-3 {
+    height: 150px;
+    width: 550px;
+    justify-content: space-evenly ;
+    position: absolute;
+    top: 600px;
+    left: 130px;
+}
+
+.aside-3_1{
+    text-align: initial;
+}
+
+.aside-3_1_1{
+    padding-left: 40px;
+}
+
+.aside-4 {
+    height: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly ;
+    position: absolute;
+    top: 940px;
+    left: 130px;
+    text-align: initial;
+}
+.aside-5 {
+    height: 150px;
+    width: 550px;
+    position: absolute;
+    bottom: 200px;
+    left: 125px;
+}
+
+.aside-5 div{
+    justify-content: space-evenly ;
+}
+.aside-6 {
+
+    position: absolute;
+    bottom: 20px;
+    left: 125px;
+
+}
+.aside-6_1{
+    position: absolute;
+    top: 20px;
+}
+.aside-6__text{
+    width: 60%;
+    text-align: initial;
+    padding-left: 130px;
+}
+
+.mail {
+    height: 30px;
+    width: 30px;
+
+}
+
