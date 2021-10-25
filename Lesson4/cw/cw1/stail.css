@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+:root {
+    --blue: #0E2840;
+    --aqua: #3AC6EA;
+    --grey: #CED8E1;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 50px;
+}
+
+.header__link {
+    height: 40px;
+    background-color: var(--aqua);
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    padding: 0 50px;
+    column-gap: 40px;
+}
+
+.header__link a{
+    text-decoration: none;
+    color: #0E2840;
+}
+
+.header__nav {
+    padding: 10px 0 20px;
+    background-color: var(--grey);
+}
+.header__nav_grid {
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.logo {
+    height: 40px;
+    width: 100px;
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+
+.nav {
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #0E2840;
+    font-size: 25px;
+}
+
+.nav__text {
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+.header__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--aqua);
+    row-gap: 25px;
+    padding-bottom: 100px;
+}
+
+.header__title{
+    padding-top: 80px;
+
+}
+
+
+.header__text {
+    width: 50%;
+    line-height: 20px;
+    text-align: center;
+}
+
+.header__main button{
+    background-color: var(--blue);
+    width: 120px;
+    border-radius: 10px;
+    justify-content: center;
+    height: 30px;
+    border: none;
+}
+
+.box__products {
+    padding: 40px 60px;
+    background-color: var(--grey);
+}
+
+.box__product_border{
+    border: 3px solid var(--aqua);
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.products__title {
+    text-align: center;
+}
+
+.products__menu {
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.products__list {
+    text-align: center;
+    padding: 20px;
+}
+
+.products__list p {
+    padding: 20px;
+}
+
+.product__item {
+    height: 100px;
+    background-color: var(--blue);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box__list {
+    background-color: var(--blue);
+    justify-content: center;
+    padding: 80px;
+    column-gap: 150px;
+}
+
+.box__list_img {
+    height: 100px;
+    width: 100px;
+    background-color: var(--grey);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    color: #CED8E1;
+}
+
+.box__list_menu{
+    color: #CED8E1;
+}
+
+.box__average {
+    text-align: center;
+    background-color: var(--grey);
+    padding: 60px;
+}
+
+.box__average_menu {
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 46px;
+}
+
+.box__average_border {
+    border: 3px solid var(--aqua);
+    border-radius: 20px;
+
+}
+
+.box__average_img {
+    height: 150px;
+    background-color: var(--blue);
+
+    border-radius: 20px;
+}
+
+.box__average_h {
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.box__average_box {
+    border-bottom: 3px solid var(--aqua);
+    padding: 15px;
+}
+
+.box__average_text {
+    text-align: initial;
+    padding-top: 10px;
+}
+
+.average__menu_bottom {
+    justify-content: space-between;
+}
+
+.button__left {
+    height: 20px;
+    width: 40px;
+    margin: 10px;
+    background-color: var(--blue);
+    border-radius: 5px;
+}
+
+.button__right {
+    margin-right: 10px;
+}
+
+.button__right button {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    background-color: var(--blue);
+    border-radius: 5px;
+}
+
+.box__info {
+    background-color: var(--grey);
+}
+
+.box__info_menu {
+    padding: 50px 60px;
+}
+
+.box__info_list1 {
+    background-color: var(--blue);
+    padding: 40px;
+    color: silver;
+
+}
+
+.box__info_list2 {
+    background-color: var(--aqua);
+    padding: 40px;
+    color: #0E2840;
+}
+
+.box__info_list1_h, .box__info_list2_h {
+    padding-bottom: 20px;
+}
+
+.box__info_list1 button {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: var(--aqua);
+    margin-top: 30px;
+}
+
+.box__info_list2 button {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: var(--blue);
+    margin-top: 30px;
+}
+
+.box__bottom {
+    background-color: var(--blue);
+}
+
+.box__bottom_list {
+    justify-content: center;
+    padding: 30px;
+    column-gap: 20px;
+}
+
+.box__bottom_list button {
+    height: 30px;
+    width: 30px;
+    background-color: var(--grey);
+    border-radius: 5px;
+}
+
+.box__bottom_text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+    column-gap: 30px;
+}
+
+.box__bottom_text a {
+    color: #3AC6EA;
+    text-decoration: none;
+}
+
+
+
