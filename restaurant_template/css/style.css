@@ -1,0 +1,298 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.header {
+    height: 800px;
+    background: url("../image/bg.png") no-repeat center/cover;
+}
+
+.header__main {
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.header__nav {
+    align-items: center;
+    column-gap: 25px;
+    padding-right: 15px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.header__nav a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav__item img {
+    width: 20px;
+}
+
+.nav__phone {
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 34px;
+}
+
+.phone__menu p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 155px;
+}
+
+.phone__info p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 45px;
+}
+
+.phone__button button {
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.nav__btn_mobile {
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-top: 20px;
+}
+
+.nav__btn_mobile div {
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+
+}
+
+.header__top h2 {
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+    padding-left: 25px;
+}
+
+.header__top h1 {
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+
+.header__top p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 12px 0 21px;
+    display: flex;
+    align-items: center;
+}
+
+.header__top p::before, .header__top p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+.header__top p::before {
+    margin-right: 10px;
+}
+
+.header__top p::after {
+    margin-left: 10px;
+}
+
+.header__top button {
+    width: 137px;
+    height: 47px;
+    background: #FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.header__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 203px 0;
+    max-width: 500px;
+}
+
+.report {
+    margin-top: 125px;
+    column-gap: 30px;
+}
+
+.report__atmosphere, .report__food1, .report__food2 {
+    width: 350px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.report__atmosphere p, .report__food1 p, .report__food2 p {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+    margin: 0 30px;
+}
+
+.plate {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0 20px;
+}
+
+.atmosphere, .food1, .food2 {
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.atmosphere h2, .food1 h2, .food2 h2 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.atmosphere h3, .food1  h3, .food2 h3 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #BC9060;
+    padding-left: 8px;
+}
+
+.history__text {
+    width: 380px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.history__text1 {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.history__text1 h2 {
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+
+.history__text1 h3 {
+    font-size: 54px;
+    line-height: 62px;
+    color: #BC9060;
+    padding-left: 20px;
+}
+
+.history__text p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+
+.history__text_info {
+    justify-content: center;
+    margin-top: 80px;
+    column-gap: 40px;
+
+}
+
+.history__text_link1 h2, .history__text_link2 h2, .history__text_link3 h2 {
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.history__text_link1 a, .history__text_link2 a, .history__text_link3 a{
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.history__image {
+    margin: 150px 0 120px 150px;
+}
+
+
+
+
+
+
+
