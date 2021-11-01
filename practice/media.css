@@ -1,0 +1,56 @@
+@media screen and (max-width: 400px) {
+    .chillers__left h1 {
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .chillers__left p {
+        top: 275px;
+    }
+    .chillers__right img {
+        position: relative;
+        top: -310px;
+    }
+
+    .chillers__left .chillers__left-text::before,
+    .chillers__left .chillers__left-text::after {
+        display: none;
+    }
+
+    .standard__right {
+        padding: 30px;
+
+    }
+
+    .standard__right-tex {
+        width: auto;
+    }
+
+    .speciality1 {
+        flex-direction: column-reverse;
+    }
+
+    .speciality__image img{
+        width: 435px;
+        margin-left: -72px;
+    }
+
+    .speciality__text h2 {
+        width: auto;
+        text-align: center;
+    }
+
+    .meeting__logo {
+        position: absolute;
+    }
+
+    .meeting__h2 {
+        padding: 110px 0 30px;
+    }
+
+    .meeting__text button {
+        margin-left: 23px;
+    }
+
+}
