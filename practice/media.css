@@ -18,6 +18,14 @@
         display: none;
     }
 
+    .standards__box {
+        margin: -11px;
+    }
+
+    .standard__left {
+        padding: 0;
+    }
+
     .standard__right {
         padding: 30px;
 
@@ -31,9 +39,13 @@
         flex-direction: column-reverse;
     }
 
+    .speciality__image {
+        padding: 0;
+    }
+
     .speciality__image img{
         width: 435px;
-        margin-left: -72px;
+        margin-left: -60px;
     }
 
     .speciality__text h2 {
@@ -52,6 +64,8 @@
     .meeting__text button {
         margin-left: 23px;
     }
+
+
 
 
 }

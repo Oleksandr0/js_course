@@ -69,6 +69,9 @@
     color: #45494F;
 }
 
+.standards__box {
+    margin: 0 -115px;
+}
 
 .standard__left img {
     width: 100%;
@@ -87,7 +90,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 40px;
-    letter-spacing: 2.42px;
+    letter-spacing: 3px;
     color: #FBFDFF;
 }
 
@@ -109,7 +112,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 40px;
-    letter-spacing: 2.42px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: #1652AC;
     width: 426px;
@@ -120,6 +123,12 @@
     font-size: 17px;
     line-height: 32px;
     color: #45494F;
+    padding-right: 76px;
+}
+
+.speciality__image img {
+    margin-left: -40px;
+    width: 780px;
 }
 
 .benefits {
@@ -131,7 +140,7 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 40px;
-    letter-spacing: 4.42px;
+    letter-spacing: 5px;
     color: #020303;
     padding: 70px 0 40px;
 }
@@ -166,7 +175,7 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 40px;
-    letter-spacing: 4.42px;
+    letter-spacing: 5px;
     color: #020303;
     padding-bottom: 70px;
 }
@@ -191,7 +200,7 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 40px;
-   letter-spacing: 4.42px;
+   letter-spacing: 5px;
     color: #020303;
 }
 
@@ -230,7 +239,7 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 40px;
-    letter-spacing: 1.42px;
+    letter-spacing: 2px;
     color: #FAFBFE;
 }
 
@@ -280,7 +289,7 @@
 }
 
 .info__box {
-    margin: 50px 30px 50px;
+    margin: 50px 0 50px;
 }
 
 .info__box h3 {
