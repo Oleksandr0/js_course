@@ -15,6 +15,9 @@
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link {
     color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -22,8 +25,35 @@
     color: #CED8E1;
 }
 
+.header__left {
+    display: flex;
+}
+
 .header__box {
     justify-content: space-between;
+
+}
+.city {
+    align-items: center;
+    display: flex;
+}
+
+.header__right {
+    align-items: center;
+    display: flex;
+
+}
+
+.header__right a, .city a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+
+.nav-link:focus, .nav-link:hover {
+    color: #CED8E1;
 }
 
 .nav-link a {
@@ -36,10 +66,12 @@
 .header__logo1 {
     padding-top: 20px;
     align-items: center;
+    display: flex;
 }
 
 .header__logo4, .header__logo3 {
     align-items: center;
+    display: flex;
 }
 
 .header__location {
@@ -129,11 +161,16 @@
     height: 53px;
 }
 
+.btn img {
+    display: none;
+}
+
 .nav__info {
     align-items: center;
     justify-content: space-between;
     width: 410px;
     margin-left: 25px;
+    display: flex;
 }
 
 .nav__basket {
@@ -149,6 +186,11 @@
     height: 28px;
     column-gap: 15px;
     align-items: center;
+}
+
+.nav__enter, .nav__favorites {
+    border-right: 1px solid #E1E5F8;
+    padding-right: 17px;
 }
 
 .nav__enter a, .nav__favorites a,
@@ -191,6 +233,7 @@
 }
 
 .carousel-item_box {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -241,6 +284,11 @@
 
 .carousel-item_image {
     width: 415px;
+}
+
+.collapse {
+    display: flex;
+    height: 34px;
 }
 
 .slider {
@@ -625,22 +673,22 @@
 
 .dot3 {
     top: -9px;
-    left: 733px;
+    left: 715px;
 }
 
 .border__box3 img {
     position: absolute;
-    left: 736px;
+    left: 718px;
 }
 
 .dot4 {
     top: -9px;
-    left: 1071px;
+    left: 1052px;
 }
 
 .border__box4 img {
     position: absolute;
-    left: 1075px;
+    left: 1055px;
 }
 
 .changes {
@@ -743,6 +791,10 @@
     column-gap: 50px;
     margin-top: 27px;
     justify-content: end;
+}
+
+.footer__box {
+    column-gap: 100px;
 }
 
 .footer__the_end{
