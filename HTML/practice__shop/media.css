@@ -205,6 +205,11 @@
         flex-direction: column;
     }
 
+    /*.changes p{*/
+    /*    width: 100%;*/
+    /*}*/
+
+
 
 
 
@@ -367,6 +372,10 @@
     .changes {
         width: 24%;
     }
+
+    /*.changes p{*/
+    /*    width: 100%;*/
+    /*}*/
 
     .footer__box {
         justify-content: space-between;
