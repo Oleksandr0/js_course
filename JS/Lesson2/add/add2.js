@@ -33,7 +33,9 @@
 //     result = 'Багато';
 // }
 
-// (a + b < 4) ? result = 'Мало':result = 'Багато';
+
+// let result = 1 + 5 < 4 ?  'Мало': 'Багато';
+// console.log(result)
 
 //
 //
