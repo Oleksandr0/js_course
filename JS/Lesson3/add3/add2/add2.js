@@ -253,5 +253,4 @@ for (const usersListElement of usersList) {
 </div>`)
 
 }
-
 document.writeln(`</div>`)
