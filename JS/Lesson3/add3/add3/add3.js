@@ -604,14 +604,12 @@ let users = [
     }
 ];
 
-
 document.write(`<div class="wrap">`)
 for (const user of users) {
-    document.write(`<div class="post-card">
-                                <h3>${user.id} - ${user.title}</h3>
-                                <p>${user.body}</p>
+    document.writeln(`<div class="post-card">
+<h3>${user.id}. ${user.title}</h3>
+<p>${user.body}</p>
+</div>`)
 
-                          </div>`)
 }
-
 document.write(`</div>`)
