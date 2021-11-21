@@ -83,15 +83,15 @@
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 //
-let massif = [
-    {id:1, name: 'vova', age:22},
-    {id:2, name: 'olia', age: 23},
-    {id:3, name: 'vasia', age: 24},
-    {id:4, name: 'vika', age: 21}];
-
-function massifObj(arg){
- for (const argElement of arg) {
-    document.writeln(`<div>${argElement.id}. ${argElement.name} ${argElement.age}</div>`)
- }
-}
-massifObj(massif)
+// let massif = [
+//     {id:1, name: 'vova', age:22},
+//     {id:2, name: 'olia', age: 23},
+//     {id:3, name: 'vasia', age: 24},
+//     {id:4, name: 'vika', age: 21}];
+//
+// function massifObj(arg){
+//  for (const argElement of arg) {
+//     document.writeln(`<div>${argElement.id}. ${argElement.name} ${argElement.age}</div>`)
+//  }
+// }
+// massifObj(massif)
