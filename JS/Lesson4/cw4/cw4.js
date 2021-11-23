@@ -8,7 +8,7 @@
 //     } else {
 //         console.log(num3)
 //     }
-//
+
 // }
 // num(50, 40, 90)
 
