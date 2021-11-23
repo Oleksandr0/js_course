@@ -23,15 +23,15 @@
 // - створити функцію яка приймає масив та виводить кожен його елемент
 
 
-// let massif = [11, 22, 'name', true]
-//
-// function massif2 (massif) {
-//     for (let i = 0; i < massif.length; i++) {
-//         document.writeln(massif[i])
-//
-//     }
-// }
-// massif2(massif)
+let massif = [11, 22, 'name', true]
+
+function massif2 (massif) {
+    for (let i = 0; i < massif.length; i++) {
+        document.writeln(massif[i])
+
+    }
+}
+massif2(massif)
 
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
