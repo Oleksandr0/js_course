@@ -68,11 +68,11 @@
 //     let str = 'Каждый охотник желает знать';
 // document.writeln(delete_characters(str, 7)); // Каждый
 
-// let delete_characters = (str, length) => {
-//     return str.substr(0, length);
-// };
-// let str = 'Каждый охотник желает знать';
-// document.writeln(delete_characters(str, 10));
+let delete_characters = (str, length) => {
+    return str.substr(0, length);
+};
+let str = 'Каждый охотник желает знать';
+document.writeln(delete_characters(str, 10));
 
 //
 // - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами. При цьому всі символи рядка необхідно перевести у верхній регістр.
@@ -80,10 +80,10 @@
 // document.writeln(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'
 
 // let insert_dash = (str) => {
-//     let split = str.split(' ')
+//     return  split = str.split(' ')
 //     .join('-')
 //     .toUpperCase();
-//     return split;
+//
 // }
 // let str = "HTML JavaScript PHP";
 // document.write(insert_dash(str));
