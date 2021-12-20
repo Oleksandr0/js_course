@@ -1,14 +1,14 @@
 // -створити форму з інпутами для name та age.
 //     При відправці форми записати об'єкт в localstorage
 
-// let form = document.forms.input;
-// form.onsubmit = e => {
-//     e.preventDefault();
-//     let uname = this.username.value;
-//     let age = this.age.value;
-//     let user = {name: uname, age: age};
-//     localStorage.setItem('user', JSON.stringify(user));
-// }
+let form = document.forms.input;
+form.onsubmit = e => {
+    e.preventDefault();
+    let uname = this.username.value;
+    let age = this.age.value;
+    let user = {name: uname, age: age};
+    localStorage.setItem('user', JSON.stringify(user));
+}
 
 // -створити форму з інпутами для model,type та volume автівки.
 //     при відпарвці форми об'єкти зберігаються в масиві в локальному сховищі.
