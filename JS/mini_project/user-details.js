@@ -36,6 +36,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
         let button = document.createElement('button');
         button.innerText = 'Post of current user';
         button.style.marginTop = '20px';
+        button.style.width = '90%';
         userWrap.appendChild(button);
         button.onclick = function () {
             fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
