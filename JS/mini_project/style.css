@@ -1,0 +1,53 @@
+.userWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+
+.user, .userWrap1, .postWrap{
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.user:hover, .userWrap1:hover, .postWrap:hover, .wrapper1:hover {
+    background: rgba(34,34,255,0.14);
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.wrapper {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.wrapper:hover {
+    background: #e0d5ff;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.wrapper1 {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
